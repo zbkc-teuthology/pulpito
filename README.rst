@@ -1,12 +1,12 @@
 pulpito
 =======
-A dashboard for Ceph test runs and results. You can see ours here: http://pulpito.ceph.com/
+A dashboard for Zbkc test runs and results. You can see ours here: http://pulpito.zbkc.com/
 
 Setup
 =====
 
-#. First, you need a running `paddles <https://github.com/ceph/paddles/>`_ instance
-#. Clone the `repository <https://github.com/ceph/pulpito.git>`_
+#. First, you need a running `paddles <https://github.com/zbkc/paddles/>`_ instance
+#. Clone the `repository <https://github.com/zbkc/pulpito.git>`_
 #. Inside the repository, create a virtualenv: ``virtualenv ./virtualenv``
 #. Create a copy of the configuration template: ``cp config.py.in prod.py``
 #. Edit prod.py to reflect your paddles configuration
